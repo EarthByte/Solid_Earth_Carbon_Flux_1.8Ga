@@ -22,9 +22,9 @@ Run the following notebooks and workflows to prepare the input files required to
 - **/utils/A-SeafloorGrids.ipynb**: This generates seafloor age grids and spreading rate grids based on an input plate model.
 - **/utils/Min-Mean-Max-Crustal-Carbon** This generates crustal carbon grids needed to run 01-Sources-of-Carbon.
 
-- Generate **total sediment thickness grids** for 1000-0Ma from [EarthByte's predicting sediment thickness workflow](https://github.com/EarthByte/predicting-sediment-thickness).
+- Generate **total sediment thickness grids** for 1800-0Ma from [EarthByte's predicting sediment thickness workflow](https://github.com/EarthByte/predicting-sediment-thickness).
 - Generate **carbonate sediment thickness grids** for 170-0Ma from [EarthByte's CarbonateSedimentThickness workflow](https://github.com/EarthByte/CarbonateSedimentThickness).
-- Generate **contoured continental masks** for 1000-0Ma from [EarthByte's continent contouring workflow](https://github.com/EarthByte/continent-contouring).
+- Generate **contoured continental masks** for 1800-0Ma from [EarthByte's continent contouring workflow](https://github.com/EarthByte/continent-contouring).
 
 The notebooks will reference these grids using the following directory structure:
 
