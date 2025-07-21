@@ -55,9 +55,9 @@ Once the input files above have been generated, run the following notebooks in o
 2. 02-Subducted-Carbon
 3. 03-Carbon-Degassing
 
-4. /H2O_review_paper/01-Sources-of-Water
-5. /H2O_review_paper/02-Subducted-Water
-6. /H2O_review_paper/06-Maps-of-water-storage.ipynb
+4. /H2O/01-Sources-of-Water
+5. /H2O/02-Subducted-Water
+6. /H2O/06-Maps-of-water-storage.ipynb
 
 7. 04-Carbonate-Platform-Degassing
 8. 05-Atmospheric-Carbon
@@ -66,6 +66,5 @@ Once the input files above have been generated, run the following notebooks in o
 Some auxiliary notebooks for animations and plots are in /utils/:
 
 - 0A-Cumulative-Subducted-Carbon.ipynb
-- 0B-Miscellaneous-Plots.ipynb
 - 0C-Carbon-Panel-Plots.ipynb
 - 0D-Carbon-Panel-Plot-Videos.ipynb
