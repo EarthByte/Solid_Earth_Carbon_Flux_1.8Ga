@@ -42,7 +42,7 @@ This can be changed to suit the directory made for the input grids above, or the
 
 There is also ContinentalMasksNoArcs, which includes masks made from a manually-edited COB-continent combined file in /utils/COB_polygons_and_coastlines_combined_1000_0_Merdith_etal_no_arcs.gpml. We need this file to ignore island arcs when calculating continental platform degassing in notebook 4.
 
-3. CrustalCarbon - grids made using CO2_review_paper/Muller_etal_2022/utils/Min-Mean-Max-Crustal-Carbon.ipynb using the plate model in webDAV/
+3. CrustalCarbon - grids made using **/utils/Min-Mean-Max-Crustal-Carbon.ipynb**
 4. SeafloorAge - grids made with **/utils/A-SeafloorGrids.ipynb** from the continent masks in /ContinentalMasks/. Considers a full spreading rate in units of mm/yr.
 5. SpreadingRate - as for SeafloorAge. Considers a full spreading rate in units of mm/yr.
 6. TotalSediment - total sediment thickness grids from [EarthByte's predicting sediment thickness workflow](https://github.com/EarthByte/predicting-sediment-thickness).
