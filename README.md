@@ -10,10 +10,10 @@ and applied to the plate model by Cao et al. (2024) placed in a mantle reference
 
 - [pyGPlates](https://www.gplates.org/docs/pygplates/pygplates_getting_started.html#installation)
 - [PlateTectonicTools](https://github.com/EarthByte/PlateTectonicTools)
-- [gplately](https://github.com/GPlates/gplately/tree/master)
+- [GPlately](https://github.com/GPlates/gplately/tree/master)
 - [Slab-Dip](https://github.com/brmather/Slab-Dip)
 - [melt](https://github.com/brmather/melt)
-- joblib _(these workflows use parallelisation with joblib and cannot be run on a single thread)._
+- [joblib](https://joblib.readthedocs.io/en/stable/) _(these workflows use parallelisation with joblib and cannot be run on a single thread)._
 
 ## Input files
 
