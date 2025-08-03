@@ -102,6 +102,13 @@ Changes to the workflow since [Müller et al. (2024)](https://zenodo.org/records
 
 9. **06-PlateTectonicStats** - Crustal production and destruction rates (m2/yr) are now calculated using `gplately`’s `PlateReconstruction object`’s `crustal_production_destruction_rate()`` function which makes production approximately equal destruction at each timestep. As per Notebook 5, rift lengths for plate tectonic stats plot were extended to 1.8Ga, taken to be equal to the average of median-filtered biased and unbiased rift lengths from 0-900Ma. Moreover, plate tectonic stats panel plot now includes average global ocean floor age over time.
 
+#### Changes in GPlately
+Workflow outputs have also been updated due to a series of updates to `PlateTectonicTools` and `gplately` which include:
+
+- Using a 70-degree angle for ridge-transform separation which changes the distrbution of ridges to transforms identified by `gplately`;
+- Tessellating subduction zone updates including fixes to trench normal angles, ignoring topological slab boundaries, 
+- Other fixes to tessellating mid ocean ridges. 
+
 
 ## Plotting Notebooks - can run once all main workflow outputs are obtained
 The following notebooks in the `./utils/` folder can be run to generate *panel plots* of workflow outputs at snapshots through geological time, as well as animations of global plate tectonic reconstructions through time.
