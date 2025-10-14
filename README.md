@@ -4,7 +4,7 @@ This repository is derived from:
 
 https://github.com/EarthByte/Solid_Earth_carbon_degassing_sequestration_1Ga
 
-and applied to the plate model by Cao et al. (2024) placed in a mantle reference frame using the model by Shirmard et al. (2025).
+and applied to the plate model by Cao et al. (2024) placed in a mantle reference frame.
 
 ## Dependencies
 The worfkflow requires the following Python packages:
