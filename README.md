@@ -21,7 +21,7 @@ The worfkflow requires the following Python packages:
 This workflow requires a series of input files:
 
 ### Required input data 
-The utility folder `./utils/` contains all required text files, spreadsheets, Python scripts and the Cao et al. 2024 plate reconstruction model required to run this workflow (in the directory `./utils/Cao_etal_2024_1.8_Ga_mantle_ref_frame`). The workflow is structured to access these files without any further action.
+The utility folder `./utils/` contains all required text files, spreadsheets, Python scripts and the Cao et al. 2024 plate reconstruction model in a mantle reference frame are required to run this workflow (in the directory `./utils/Cao_etal_2024_1.8_Ga_mantle_ref_frame`). The workflow is structured to access these files without any further action.
 
 ### Required netCDF grids
 
